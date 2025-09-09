@@ -139,8 +139,8 @@ export default function Home() {
 
           {/* <BaseAgent agentId='7' setAgent={setAgent} imgSrc="/agents/vehicle.svg" agentText="Vehicle Data Agent" info="Find vehicle information based on VIN/Chassis input or manual selection and returns a comprehensive report based on specifications and internet search." /> */}
           <p className="text-4xl font-semibold text-center text-main-1">Welcome to AI agents for the insurance industry</p>
-          <p>Empowering insurance professionals with cutting-edge AI technology</p>
-          <p className="text-center">Welcome to our platform, where innovation meets the insurance industry through advanced AI solutions designed to streamline workflows, enhance decision-making, and improve customer engagement. We are excited to introduce our AI Agents, specifically crafted to help you harness the power of artificial intelligence.</p>
+          <p className="text-black">Empowering insurance professionals with cutting-edge AI technology</p>
+          <p className="text-center text-black">Welcome to our platform, where innovation meets the insurance industry through advanced AI solutions designed to streamline workflows, enhance decision-making, and improve customer engagement. We are excited to introduce our AI Agents, specifically crafted to help you harness the power of artificial intelligence.</p>
           {/* <Link href={'/agents'} className="bg-main-1 text-white min-w-28 flex items-center justify-center rounded-lg  !h-[3rem] p-4">Check Out Our Agents</Link> */}
         </div>
         <div className=" flex-1 flex flex-col gap-4 w-full ">
