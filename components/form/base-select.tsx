@@ -10,7 +10,7 @@ export default function BaseSelect({control,name,rules,data,label,labelPlacement
         <Select
             label={label}
             labelPlacement={labelPlacement}
-            classNames={{label:"font-semibold"}}
+            classNames={{label:"font-semibold !text-black"}}
             {...field}
             isInvalid={!!error}
             onSelectionChange={(k)=>{

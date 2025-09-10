@@ -9,7 +9,7 @@ export default function BaseRadioGroup({ name, control, rules,label ,data}: Base
             {...field}
             label={label}
             classNames={{
-                label: "font-semibold text-black"
+                label: "font-semibold !text-black"
             }}
             isInvalid={!!error}
             errorMessage={error?.message}
