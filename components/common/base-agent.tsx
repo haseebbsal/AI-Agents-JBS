@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 export default function BaseAgent({ agentText, info, imgSrc, setAgent, agentId }: BaseAgentProps) {
     const router = useRouter()
     const navigate = () => {
-        // setAgent(agentId)
+        setAgent(agentId)
         router.push(`/agent?agent=${agentId}`)
     }
 
