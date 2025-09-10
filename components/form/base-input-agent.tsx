@@ -9,7 +9,8 @@ export default function BaseAgentInput({ placeholder, label, type, variant,name,
     return (
         <>
             <Input label={label} labelPlacement={labelPlacement} classNames={{
-                label:"font-semibold"
+                label:"font-semibold !text-black",
+                input:"!text-black"
             }} type={type} variant={variant} placeholder={placeholder} {...field} isInvalid={!!error} onChange={(e)=>{
                 field.onChange(e.target.value)
                 router.refresh()
