@@ -13,7 +13,7 @@ export default function BaseFile({ showHeader, extraClass, headerText, name, con
     return (
         <>
             <div className="flex flex-col gap-2">
-                {showHeader && <h1 className="text-base-primary font-semibold">{headerText}</h1>}
+                {showHeader && <h1 className="!text-black font-semibold">{headerText}</h1>}
                 {error && <p className="text-red-400 text-sm">{error.message}</p>}
                 <div className={`p-4 ${extraClass}`}>
                     <div className="bg-content-14 flex flex-col relative rounded-lg  gap-2">
